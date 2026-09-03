@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Eventos | Igreja Betesda Central</title>
+
+
+    <!-- Bootstrap -->
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+
+    <!-- Bootstrap Icons -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+
+    <div class="container">
+
+        <a
+            class="navbar-brand"
+            href="index.html"
+        >
+
+            <img
+                src="assets/logo/Logo-Betesda.jpg"
+                alt="Igreja Betesda Central"
+                height="55"
+                style="border-radius: 50%;"
+            >
+
+        </a>
+
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarPrincipal"
+        >
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div
+            class="collapse navbar-collapse"
+            id="navbarPrincipal"
+        >
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="index.html"
+                    >
+                        Início
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="sobre.html"
+                    >
+                        Sobre
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="historia.html"
+                    >
+                        História
+                    </a>
+
+                </li>
+
+
+                
+                
+                <li class="nav-item">
+
+                    <a
+                    class="nav-link"
+                    href="ministerios.html"
+                    >
+                    Ministérios
+                </a>
+                
+            </li>
+            
+            
+            <li class="nav-item">
+                
+                <a
+                class="nav-link"
+                href="pequenos-grupos.html"
+                >
+                Pequenos Grupos
+            </a>
+            
+        </li>
+        
+        <li class="nav-item">
+    
+            <a
+                class="nav-link active"
+                href="eventos.html"
+            >
+                Agenda/Eventos
+            </a>
+    
+        </li>
+        
+        <li class="nav-item">
+    
+            <a
+                class="nav-link"
+                href="temas.html"
+            >
+                Tema do ano
+            </a>
+    
+        </li>
+
+        <li class="nav-item">
+            
+            <a
+            class="nav-link"
+            href="contato.html"
+            >
+            Contato
+        </a>
+        
+    </li>
+    
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =====================================================
+     CABEÇALHO DA PÁGINA
+===================================================== -->
+
+<section class="pagina-header">
+
+    <div class="container text-center">
+
+        <span class="pagina-kicker">
+            VIVA A COMUNHÃO
+        </span>
+
+
+        <h1>
+            Eventos
+        </h1>
+
+
+        <p>
+            Confira nossa programação, participe dos
+            próximos eventos e relembre momentos
+            especiais da Igreja Betesda Central.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PRÓXIMOS EVENTOS
+===================================================== -->
+
+<section class="eventos-proximos py-5">
+
+    <div class="container">
+
+        <div class="section-heading text-center mb-5">
+
+            <span class="section-kicker">
+                NÃO PERCA
+            </span>
+
+
+            <h2>
+                Próximos eventos
+            </h2>
+
+
+            <p>
+                Momentos especiais que estão por vir.
+            </p>
+
+        </div>
+
+
+        <div
+            class="row g-4"
+            id="eventos-proximos-container"
+        >
+
+            <!-- Os eventos serão inseridos aqui -->
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CALENDÁRIO / PROGRAMAÇÃO
+===================================================== -->
+
+<section class="eventos-calendario py-5">
+
+    <div class="container">
+
+        <div class="section-heading text-center mb-5">
+
+            <span class="section-kicker">
+                PROGRAMAÇÃO
+            </span>
+
+
+            <h2>
+                Calendário
+            </h2>
+
+
+            <p>
+                Acompanhe os principais acontecimentos
+                da nossa igreja.
+            </p>
+
+        </div>
+
+
+        <div
+            class="calendario-lista"
+            id="calendario-container"
+        >
+
+            <!-- Eventos serão inseridos aqui -->
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EVENTOS REALIZADOS
+===================================================== -->
+
+<section class="eventos-realizados py-5">
+
+    <div class="container">
+
+        <div class="section-heading text-center mb-5">
+
+            <span class="section-kicker">
+                MEMÓRIAS
+            </span>
+
+
+            <h2>
+                Eventos realizados
+            </h2>
+
+
+            <p>
+                Relembre alguns dos momentos que
+                marcaram nossa caminhada.
+            </p>
+
+        </div>
+
+
+        <div
+            class="row g-4"
+            id="eventos-realizados-container"
+        >
+
+            <!-- Eventos anteriores serão inseridos aqui -->
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section class="eventos-cta py-5">
+
+    <div class="container">
+
+        <div class="eventos-cta-box text-center">
+
+            <span class="section-kicker">
+                IGREJA BETESDA CENTRAL
+            </span>
+
+
+            <h2>
+                Há sempre um lugar para você.
+            </h2>
+
+
+            <p>
+                Venha estar conosco, conhecer nossa
+                comunidade e viver momentos de comunhão.
+            </p>
+
+
+            <a
+                href="sobre.html"
+                class="btn btn-betesda"
+            >
+                Conheça a igreja
+
+                <i class="bi bi-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+
+                <div class="footer-brand">
+
+                    <img
+                        src="assets/logo/Logo-Betesda.jpg"
+                        alt="Igreja Betesda Central"
+                        style="border-radius: 50%;"
+                    >
+
+                    <p>
+                        Um lugar para conhecer a Deus,
+                        crescer e servir.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-links">
+
+                    <h3>
+                        Navegação
+                    </h3>
+
+                    <a href="index.html">
+                        Início
+                    </a>
+
+                    <a href="sobre.html">
+                        Sobre
+                    </a>
+
+                    <a href="historia.html">
+                        História
+                    </a>
+
+                    <a href="ministerios.html">
+                        Ministérios
+                    </a>
+
+                    <a href="pequenos-grupos.html">
+                        PG's
+                    </a>
+
+                    <a href="eventos.html">
+                        Agenda/Eventos
+                    </a>
+
+                    <a href="contato.html">
+                        Contato
+                    </a>
+
+                </div>
+
+
+                <div class="footer-info">
+
+                    <h3>
+                        Encontre-nos
+                    </h3>
+
+                    <p>
+
+                        <i class="bi bi-geo-alt"></i>
+
+                        <span>
+                            Rua Dom Hélio Campos, 35<br>
+                            Quixeramobim — Ceará<br>
+                            63800-000
+                        </span>
+
+                    </p>
+
+
+                    <p>
+
+                        <i class="bi bi-calendar-event"></i>
+
+                        <span>
+                            Domingo — 18:00
+                        </span>
+
+                    </p>
+
+
+                    <p>
+
+                        <i class="bi bi-calendar-event"></i>
+
+                        <span>
+                            Quarta-feira — 19:00
+                        </span>
+
+                    </p>
+
+                </div>
+
+
+                <div class="footer-social">
+
+                    <h3>
+                        Siga-nos
+                    </h3>
+
+                    <div class="social-links">
+
+                        <a
+                            href="https://www.instagram.com/betesdacentralsede/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Instagram"
+                        >
+
+                            <i class="bi bi-instagram"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 Igreja Betesda Central.
+                    Todos os direitos reservados.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+<!-- Bootstrap JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+></script>
+
+
+<!-- JavaScript -->
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
