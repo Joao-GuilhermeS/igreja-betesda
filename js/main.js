@@ -1,3 +1,6 @@
+const raizProjeto = new URL("../", document.currentScript.src);
+const urlProjeto = (caminho) => new URL(caminho, raizProjeto).href;
+
 /* =========================================================
    DADOS DOS PEQUENOS GRUPOS
 ========================================================= */
@@ -431,7 +434,7 @@ if (paginaPG) {
 
 
         document.getElementById("pg-foto-principal").src =
-            `assets/img/pequenos-grupos/${pasta}/${primeiraFoto}`;
+            urlProjeto(`assets/images/pequenos-grupos/${pasta}/${primeiraFoto}`);
 
 
         document.getElementById("pg-foto-principal").alt =
@@ -475,7 +478,7 @@ if (paginaPG) {
         grupo.fotos.forEach((foto) => {
 
             const caminho =
-                `assets/img/pequenos-grupos/${pasta}/${foto}`;
+                urlProjeto(`assets/images/pequenos-grupos/${pasta}/${foto}`);
 
 
             const coluna =
@@ -1257,7 +1260,7 @@ if (eventoContainer) {
                     </p>
 
                     <a
-                        href="eventos.html"
+                        href="${urlProjeto("pages/eventos.html")}"
                         class="btn btn-betesda"
                     >
                         Voltar para eventos
@@ -1276,7 +1279,7 @@ if (eventoContainer) {
 
 
         const caminhoBase =
-            `assets/img/eventos/${evento.pasta}/`;
+            urlProjeto(`assets/images/eventos/${evento.pasta}/`);
 
 
         eventoContainer.innerHTML = `
@@ -1288,7 +1291,7 @@ if (eventoContainer) {
                 <div class="container">
 
                     <a
-                        href="eventos.html"
+                        href="${urlProjeto("pages/eventos.html")}"
                         class="evento-voltar"
                     >
 
@@ -1663,7 +1666,7 @@ if (containerRealizados) {
     realizados.forEach(evento => {
 
         const caminho =
-            `assets/img/eventos/${evento.pasta}/${evento.fotoPrincipal}`;
+            urlProjeto(`assets/images/eventos/${evento.pasta}/${evento.fotoPrincipal}`);
 
 
         const card =
@@ -1723,7 +1726,7 @@ if (containerRealizados) {
 
 
                     <a
-                        href="evento.html?id=${evento.id}"
+                        href="${urlProjeto(`pages/evento.html?id=${evento.id}`)}"
                         class="evento-btn"
                     >
 

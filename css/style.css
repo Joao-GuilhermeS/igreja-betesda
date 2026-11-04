@@ -85,7 +85,7 @@ body {
     display: flex;
     align-items: center;
 
-    background-image: url("../assets/img/home-site-Betesda.jpg");
+    background-image: url("../assets/images/home-site-Betesda.jpg");
     background-size: cover;
     background-position: center;
 
@@ -3299,7 +3299,7 @@ body {
             rgba(74, 36, 23, 0.94),
             rgba(74, 36, 23, 0.94)
         ),
-        url("../assets/img/home-site-Betesda.jpg");
+        url("../assets/images/home-site-Betesda.jpg");
 
     background-size: cover;
 
@@ -3455,7 +3455,7 @@ body {
             rgba(61, 30, 18, 0.93),
             rgba(61, 30, 18, 0.93)
         ),
-        url("../assets/img/home-site-Betesda.jpg");
+        url("../assets/images/home-site-Betesda.jpg");
 
     background-size: cover;
 
@@ -3767,7 +3767,7 @@ body {
             rgba(74, 36, 23, 0.95),
             rgba(74, 36, 23, 0.95)
         ),
-        url("../assets/img/home-site-Betesda.jpg");
+        url("../assets/images/home-site-Betesda.jpg");
 
     background-size: cover;
 
