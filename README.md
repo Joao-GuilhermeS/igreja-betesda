@@ -57,4 +57,20 @@ Não é necessária instalação de dependências. Abra o arquivo `index.html` e
 
 Os parâmetros `id` e `grupo` correspondem a dados definidos no JavaScript; valores não cadastrados não representam registros disponíveis.
 
-## 
+## Público beneficiado
+
+O público atendido é a comunidade religiosa da Igreja Betesda Central, em Quixeramobim, Ceará, incluindo membros, participantes dos ministérios e pequenos grupos, visitantes e pessoas que procuram informações sobre a igreja. A instituição apresenta no site atividades como cultos, ministérios, pequenos grupos, eventos, acolhimento e ações do Betesda Social.
+
+## Interação realizada
+
+A proposta surgiu de contato direto com Michael, que já havia manifestado a necessidade de um serviço para a igreja. Conversações foram feitas bem como o levantamento das necessidades e confirmação da proposta. Com o levantamento dos requisitos foi dada inicio a implementação direta.
+
+## Problema identificado
+
+Falta de controle das informações e divugações, solução implementada: Centralizar toda a comunicação institucional (eventos, ministérios, pequenos grupos e contatos) em um único ponto de acesso público, eliminating a dependência de redes sociais ou avisos fragmentados. Ao adotar uma arquitetura de páginas estáticas, a aplicação resolve o problema de comunicação da igreja com custo zero de infraestrutura inicial, alta velocidade de carregamento e manutenção simplificada.
+
+## Escopo da primeira versão
+
+A primeira versão tem como objetivo disponibilizar informações institucionais em um site multipágina. Inclui páginas sobre a igreja e sua história, listagens e páginas individuais de ministérios, pequenos grupos, temas anuais, eventos e contato, além de galerias de imagens e navegação entre páginas.
+
+O escopo é informativo e estático: não há backend, banco de dados, autenticação, painel administrativo ou envio de formulários ao servidor. O conteúdo e os dados usados para montar detalhes de eventos e pequenos grupos estão nos próprios arquivos do projeto; alterações são feitas diretamente neles.
